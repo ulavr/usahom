@@ -1,0 +1,124 @@
+*{
+ margin: 0 ;
+ padding: 0 ;
+ box-sizing: border-box ;
+}
+body{
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgb(47, 127, 131) ;
+}
+.container{
+position: absolute;
+max-width: 450px ;
+left: 50% ;
+top: 50% ;
+transform: translate(-50%,-50%) ;
+background:white ;
+border-radius: 20px ;
+overflow: hidden ;
+}
+.text-content{
+padding: 7% ;
+text-align: center ;
+}
+.title{
+color:  hsl(223, 47%, 23%) ;
+font-weight: 900;
+font-size: 26px;
+margin-bottom: 20px;
+}
+.text-content p.subtitel{
+color: #8a8a8a  ;
+margin-bottom: 25px ;
+}
+.plan-box{
+ background-color: hsl(225,100%,98%);
+ border-radius: 12px;
+ display: flex;
+ justify-content:space-around ;
+ padding:12px 0 ;
+ align-items: center;
+}
+.plan_box_left{
+ display: flex;
+ align-items: center;
+ text-align: left;
+}
+.plan_box_left div{
+    margin-left: 20px;
+}
+.plan_box_left div h5{
+ font-weight: 900;
+ font-size: 17.5px;
+color:hsl(223, 47%, 23%);
+}
+.plan_box_left div p{
+ font-size: 17.5px;
+ color:hsl(223, 47%, 23%);
+}
+.plan-box a{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    transition: color .3s ease ;
+    font-size: 19px;
+    text-decoration: none;
+}
+.plan-box a:hover{
+ text-decoration: underline;
+ color:hsl(245, 75%, 52%);
+}
+a.proceed-btn{
+ display: block;
+ text-decoration: none;
+ color: azure;
+ background-color: rgb(33, 47, 128);
+ padding: 20px 0;
+ border-radius: 20px;
+ margin: 30px 0;
+ transition: backround-color .3s ease ;
+}
+
+a.proceed-btn:hover{
+ background-color: #5a681d;
+}
+a.canel-btn{
+color: hsl(224, 23%, 55%) ;
+text-decoration: none ;
+font-weight: 900;
+transition: color .3s ease;
+}
+a.canel-btn:hover{
+color:hsl(223, 47%, 23%) ; 
+}
+@media only screen and (max-width:425px){
+body{
+font-size: 15px;
+}
+.container{
+max-width:87% ;
+}
+.title{
+font-size:23px ;
+}
+div.plan-box{
+ padding:12px ;
+}
+.plan_box_left div{
+ margin-left: 10px;
+}   
+a.proceed-btn,a.cancel-btn, .plan-box a{
+ font-size: 12px;
+}
+.text-content{
+padding: 8% 6% ;
+}
+
+
+
+}
+body{
+background: url(./ing/3.webp);
+font-family: 'News Cycle', sans-serif;
+}
+
